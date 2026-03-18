@@ -4,6 +4,7 @@ import { config } from "dotenv";
 
 config({ path: "./.env" });
 config({ path: "../../apps/web/.env" });
+config({ path: "../../apps/server/.env" });
 
 const app = await alchemy("ai-chat-webapp");
 
