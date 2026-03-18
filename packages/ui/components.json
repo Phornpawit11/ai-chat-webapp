@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "base-lyra",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/styles/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "iconLibrary": "lucide",
+  "aliases": {
+    "components": "@ai-chat-webapp/ui/components",
+    "utils": "@ai-chat-webapp/ui/lib/utils",
+    "hooks": "@ai-chat-webapp/ui/hooks",
+    "lib": "@ai-chat-webapp/ui/lib",
+    "ui": "@ai-chat-webapp/ui/components"
+  },
+  "menuColor": "default",
+  "menuAccent": "subtle",
+  "registries": {}
+}

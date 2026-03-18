@@ -1,0 +1,24 @@
+{
+  "name": "@ai-chat-webapp/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@ai-chat-webapp/db": "workspace:*",
+    "@ai-chat-webapp/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@ai-chat-webapp/config": "workspace:*",
+    "typescript": "^5"
+  }
+}

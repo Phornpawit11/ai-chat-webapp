@@ -1,0 +1,48 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev:bare": "next dev --port 3001"
+  },
+  "dependencies": {
+    "@ai-chat-webapp/api": "workspace:*",
+    "@ai-chat-webapp/auth": "workspace:*",
+    "@ai-chat-webapp/env": "workspace:*",
+    "@ai-chat-webapp/ui": "workspace:*",
+    "@ai-sdk/react": "^3.0.3",
+    "@opennextjs/cloudflare": "^1.14.6",
+    "@tanstack/react-form": "^1.28.0",
+    "@tanstack/react-query": "^5.90.12",
+    "@trpc/client": "catalog:",
+    "@trpc/server": "catalog:",
+    "@trpc/tanstack-react-query": "^11.7.2",
+    "ai": "catalog:",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "lucide-react": "catalog:",
+    "next": "^16.1.1",
+    "next-themes": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "sonner": "catalog:",
+    "streamdown": "^1.6.10",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@ai-chat-webapp/config": "workspace:*",
+    "@cloudflare/workers-types": "catalog:",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@tanstack/react-query-devtools": "^5.91.1",
+    "@types/node": "^20",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "alchemy": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "^5",
+    "wrangler": "^4.54.0"
+  }
+}
